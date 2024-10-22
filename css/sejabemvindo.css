@@ -1,0 +1,20 @@
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: black !important;
+   
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+}
